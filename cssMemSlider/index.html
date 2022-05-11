@@ -4,48 +4,60 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="stylesheet" href="./styles/slider.css" />
+        <link rel="stylesheet" href="./styles/slider-text.css" />
         <title>Document</title>
     </head>
     <body>
         <div class="page">
+            <div class="container">
+                <main class="main">
+                    <input type="radio" name="r" id="r1" checked />
+                    <input type="radio" name="r" id="r2" />
+                    <input type="radio" name="r" id="r3" />
+                    <input type="radio" name="r" id="r4" />
+                    <input type="radio" name="r" id="r5" />
 
-            <input type="radio" name="r" id="r1" checked />
-            <input type="radio" name="r" id="r2" />
-            <input type="radio" name="r" id="r3" />
-            <input type="radio" name="r" id="r4" />
-            <input type="radio" name="r" id="r5" />
+                    <div class="slider">
+                        <div class="slides">
+                            <div class="slide s1"><img src="./img/1.jpg" alt=""
+                                    /></div>
+                            <div class="slide"><img src="./img/2.jpg" alt="" /></div>
+                            <div class="slide"><img src="./img/3.jpg" alt="" /></div>
+                            <div class="slide"><img src="./img/4.jpg" alt="" /></div>
+                            <div class="slide"><img src="./img/5.jpg" alt="" /></div>
+                        </div>
+                    </div>
+                    <div class="slider__footer">
+                        <div class="slider-text">
+                            <div class="slides-text">
+                                <span class="slide-text s2">
+                                    Just two hours of refactoring, man
+                                </span>
+                                <span class="slide-text">Deadline was yesterday</span>
+                                <span class="slide-text">I can't I have paws</span>
+                                <span class="slide-text">When you saw the
+                                    console after running eslint</span>
+                                <span class="slide-text">
+                                    Remember: "Nothing is true - everything is
+                                    permitted"
+                                </span>
+                            </div>
+                        </div>
 
-            <div class="slider middle">
-                <div class="slides">
-                    <div class="slide s1"><img src="./img/1.jpg" alt="" /></div>
-                    <div class="slide"><img src="./img/2.jpg" alt="" /></div>
-                    <div class="slide"><img src="./img/3.jpg" alt="" /></div>
-                    <div class="slide"><img src="./img/4.jpg" alt="" /></div>
-                    <div class="slide"><img src="./img/5.jpg" alt="" /></div>
-                </div>
-            </div>
-
-            <div class="slider-text">
-                <div class="slides-text">
-                    <span class="slide-text s2">Hello</span>
-                    <span class="slide-text">World</span>
-                    <span class="slide-text">Lorem</span>
-                    <span class="slide-text">Fish</span>
-                    <span class="slide-text">Crab</span>
-                </div>
-            </div>
-
-
-
-            <div class="navigation" id="nav">
-                <label for="r1" class="bar"></label>
-                <label for="r2" class="bar"></label>
-                <label for="r3" class="bar"></label>
-                <label for="r4" class="bar"></label>
-                <label for="r5" class="bar"></label>
+                        <div class="navigation" id="nav">
+                            <div class="navigation__container">
+                                <label for="r1" class="bar"></label>
+                                <label for="r2" class="bar"></label>
+                                <label for="r3" class="bar"></label>
+                                <label for="r4" class="bar"></label>
+                                <label for="r5" class="bar"></label>
+                            </div>
+                        </div>
+                    </div>
+                </main>
             </div>
         </div>
-
     </body>
 </html>
