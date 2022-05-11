@@ -40,29 +40,30 @@ body {
   display: flex;
 }
 .not-psevdoelement-bar {
-  height: 1.2rem;
-  width: 1.2rem;
-  padding: 0.5rem;
-}
-.bar {
-  display: block;
   width: 80%;
   height: 80%;
-  position: relative;
-
   opacity: 0.5;
   border-radius: 0.8rem;
 
   background-color: #ddd;
   transition: all 0.4s ease;
+}
+
+.bar {
+  display: block;
+
+  height: 1.2rem;
+  width: 1.2rem;
+  padding: 0.5rem;
+
   cursor: pointer;
 }
 
-.not-psevdoelement-bar:active .bar {
+.bar:active .not-psevdoelement-bar {
   background-color: rgb(130, 109, 109);
 }
 
-.not-psevdoelement-bar:hover .bar {
+.bar:hover .not-psevdoelement-bar {
   opacity: 0.8;
   transform: scale(1.1);
 }
