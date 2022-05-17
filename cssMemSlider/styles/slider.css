@@ -47,7 +47,7 @@
 
 .slider__footer {
   margin-top: 2rem;
-
+  width: 100%;
   max-width: 50rem;
   display: flex;
   justify-content: space-between;
