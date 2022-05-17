@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+.slider-text {
+  flex: 0 1 75%;
+  overflow: hidden;
+}
+
+.slides-text {
+  width: 500%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.slide-text {
+  font-family: "Roboto", sans-serif;
+  color: rgb(148, 148, 148);
+  font-size: 1.5rem;
+
+  width: 20%;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s ease-in;
+}
+
+#r1:checked ~ .slider__footer .slider-text .s2 {
+  margin-left: 0;
+}
+#r2:checked ~ .slider__footer .slider-text .s2 {
+  margin-left: -20%;
+}
+#r3:checked ~ .slider__footer .slider-text .s2 {
+  margin-left: -40%;
+}
+#r4:checked ~ .slider__footer .slider-text .s2 {
+  margin-left: -60%;
+}
+#r5:checked ~ .slider__footer .slider-text .s2 {
+  margin-left: -80%;
+}

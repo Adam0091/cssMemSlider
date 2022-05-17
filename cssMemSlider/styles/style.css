@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+input[name="r"] {
+  display: none;
+}
+
+body {
+  background-color: rgb(68, 68, 68);
+}
+
+.container {
+  height: 100%;
+  max-width: 60rem;
+  padding: 0 3rem;
+  margin: 0 auto;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  overflow: hidden;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation__container {
+  display: flex;
+}
+.not-psevdoelement-bar {
+  width: 80%;
+  height: 80%;
+  opacity: 0.5;
+  border-radius: 0.8rem;
+
+  background-color: #ddd;
+  transition: all 0.4s ease;
+}
+.bar {
+  display: block;
+
+  height: 1.2rem;
+  width: 1.2rem;
+  padding: 0.5rem;
+
+  cursor: pointer;
+}
+
+.bar:active .not-psevdoelement-bar {
+  background-color: rgb(130, 109, 109);
+}
+
+.bar:hover .not-psevdoelement-bar {
+  opacity: 0.8;
+  transform: scale(1.1);
+}

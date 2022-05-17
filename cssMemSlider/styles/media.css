@@ -1,0 +1,19 @@
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 0 0.5rem;
+  }
+  .slider__footer {
+    row-gap: 2rem;
+    flex-direction: column;
+  }
+
+  .slider-text {
+    width: 100%;
+    order: 1;
+  }
+
+  .slide-text {
+    font-size: 1.2rem !important;
+    align-items: center;
+  }
+}
