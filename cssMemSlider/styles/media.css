@@ -1,11 +1,9 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .container {
     padding: 0 0.5rem;
   }
   .slider__footer {
-    align-items: center;
     row-gap: 2rem;
-    justify-content: center;
     flex-direction: column;
   }
 
@@ -15,8 +13,6 @@
 
   .slide-text {
     font-size: 1.2rem !important;
-    display: flex;
     align-items: center;
-    justify-content: center;
   }
 }
